@@ -1,0 +1,20 @@
+:root {
+  --bg: #fffaf4;
+  --ink: #1b2b2b;
+  --accent: #2f7f72;
+  --accent-2: #8bb5a2;
+  --card: #ffffff;
+  --muted: #6d7b76;
+  --border-subtle: #e9efe9;
+  --font-display: 'Playfair Display';
+  --font-body: 'Work Sans';
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.shadow-soft {
+  box-shadow: 0 15px 45px rgba(11, 53, 46, 0.08);
+}
