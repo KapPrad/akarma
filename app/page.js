@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import NewsletterBlock from "@/components/NewsletterBlock";
 import ProgramCard from "@/components/ProgramCard";
 import Section from "@/components/Section";
+import PhotoGallery from "@/components/PhotoGallery";
 import TestimonialSlider from "@/components/TestimonialSlider";
 import {
   programs,
@@ -93,6 +94,13 @@ export default async function HomePage() {
       </Section>
 
       <Section
+        eyebrow="Field Notes"
+        title="Nourishing neighbors with heartfelt meals."
+        description="Scenes from our seva kitchens where volunteers plate warm food so every guest feels seen and cared for."
+      >
+        <PhotoGallery />
+      </Section>
+      <Section
         eyebrow="Upcoming"
         title="Gatherings on the horizon"
         description="Events are published in Sanity so your team can update them without touching code."
@@ -130,3 +138,8 @@ export default async function HomePage() {
     </>
   );
 }
+
+
+
+
+
